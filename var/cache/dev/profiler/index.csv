@@ -1,7 +1,8 @@
-1e6604,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517611225,,200
-d7e552,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517611366,,200
-86ea67,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517611749,,200
-81dbaf,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517612368,,200
-37d713,::1,GET,http://localhost/CupCakes/web/app_dev.php/user.html,1517612555,841654,200
-841654,::1,GET,http://localhost/CupCakes/web/app_dev.php/user.html,1517612555,,404
-2f5de6,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517612858,,200
+2f131e,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517615251,,200
+149356,::1,GET,http://localhost/CupCakes/web/app_dev.php/login,1517615494,,200
+bdaf9b,::1,GET,http://localhost/CupCakes/web/app_dev.php/register/,1517615504,79cbc8,200
+79cbc8,::1,GET,http://localhost/CupCakes/web/app_dev.php/register/,1517615504,,500
+16b469,::1,GET,http://localhost/CupCakes/web/app_dev.php/register/,1517615507,8309af,200
+8309af,::1,GET,http://localhost/CupCakes/web/app_dev.php/register/,1517615508,,500
+6698ee,::1,GET,http://localhost/CupCakes/web/app_dev.php/register/,1517615543,,200
+7f9efc,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517615552,,200
