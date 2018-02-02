@@ -1,0 +1,7 @@
+1e6604,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517611225,,200
+d7e552,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517611366,,200
+86ea67,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517611749,,200
+81dbaf,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517612368,,200
+37d713,::1,GET,http://localhost/CupCakes/web/app_dev.php/user.html,1517612555,841654,200
+841654,::1,GET,http://localhost/CupCakes/web/app_dev.php/user.html,1517612555,,404
+2f5de6,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517612858,,200
