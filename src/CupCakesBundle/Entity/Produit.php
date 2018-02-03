@@ -29,11 +29,18 @@ class Produit
     private $nomProd;
 
     /**
-     * @var float
+     * @var string
      *
      * @ORM\Column(name="qteStockProd", type="float", nullable=true)
      */
     private $qteStockProd;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="typeProd", type="string",length=255, nullable=true)
+     */
+    private $typeProd;
 
     /**
      * @var float
@@ -215,5 +222,29 @@ class Produit
     public function getIdCat()
     {
         return $this->idCat;
+    }
+
+    /**
+     * Set typeProd
+     *
+     * @param string $typeProd
+     *
+     * @return Produit
+     */
+    public function setTypeProd($typeProd)
+    {
+        $this->typeProd = $typeProd;
+    
+        return $this;
+    }
+
+    /**
+     * Get typeProd
+     *
+     * @return string
+     */
+    public function getTypeProd()
+    {
+        return $this->typeProd;
     }
 }

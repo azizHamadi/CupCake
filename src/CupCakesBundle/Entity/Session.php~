@@ -192,4 +192,28 @@ class Session
     {
         return $this->idFor;
     }
+
+    /**
+     * Set idPromo
+     *
+     * @param \CupCakesBundle\Entity\Promotion $idPromo
+     *
+     * @return Session
+     */
+    public function setIdPromo(\CupCakesBundle\Entity\Promotion $idPromo = null)
+    {
+        $this->idPromo = $idPromo;
+    
+        return $this;
+    }
+
+    /**
+     * Get idPromo
+     *
+     * @return \CupCakesBundle\Entity\Promotion
+     */
+    public function getIdPromo()
+    {
+        return $this->idPromo;
+    }
 }

@@ -30,3 +30,6 @@ aed5de,::1,GET,http://localhost/CupCakes/web/app_dev.php/login/,1517667166,7ab9d
 6f2c65,::1,GET,http://localhost/CupCakes/web/app_dev.php/login,1517667175,,200
 0e85a8,::1,GET,http://localhost/CupCakes/web/app_dev.php/login,1517667492,,200
 4fc1dc,::1,GET,http://localhost/CupCakes/web/app_dev.php/login,1517672243,,200
+5d719f,::1,GET,http://localhost/CupCakes/web/app_dev.php/,1517692456,,200
+836f53,::1,GET,http://localhost/CupCakes/web/app_dev.php/register/,1517692473,,200
+d383e9,::1,GET,http://localhost/CupCakes/web/app_dev.php/login,1517692514,,200
