@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Sign In | Bootstrap Based Admin Template - Material Design</title>
+    <!-- Bootstrap Core Css -->
+    <link href="{{ asset('plugins/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="{{ asset('plugins/node-waves/waves.css') }}" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="{{ asset('plugins/animate-css/animate.css') }}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
+</head>
+<body class="login-page">
+<div class="body"></div>
+<div class="grad"></div>
+<div class="header">
+    <div>Cup<span color="#dc5552">Cakes</span></div>
+</div>
+<br>
+<div class="login-box">
+    <div class="card">
+
+        {% for type, messages in app.session.flashBag.all %}
+            {% for message in messages %}
+                <div class="{{ type }}">
+                    {{ message|trans({}, 'FOSUserBundle') }}
+                </div>
+            {% endfor %}
+        {% endfor %}
+        {% block fos_user_content %}{% endblock %}
+    </div></div>
+
+{% block javascripts %}
+    <script   src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <!-- Jquery Core Js -->
+    <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="{{ asset('plugins/bootstrap/js/bootstrap.js') }}"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="{{ asset('plugins/node-waves/waves.js') }}"></script>
+
+    <!-- Validation Plugin Js -->
+    <script src="{{ asset('plugins/jquery-validation/jquery.validate.js') }}"></script>
+
+    <!-- Custom Js -->
+    <script src="{{ asset('js/admin.js') }}"></script>
+    <script src="{{ asset('js/pages/examples/sign-in.js') }}"></script>
+{% endblock %}
+</body>
 </html>

@@ -67,7 +67,7 @@
         <parameter key="namespace">AppBundle</parameter>
       </parameter>
       <parameter key="CupCakesBundle" type="collection">
-        <parameter key="parent">null</parameter>
+        <parameter key="parent">FOSUserBundle</parameter>
         <parameter key="path">C:\wamp64\www\CupCakes\src\CupCakesBundle</parameter>
         <parameter key="namespace">CupCakesBundle</parameter>
       </parameter>
@@ -671,7 +671,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>JtiSTn7sZnrg-BgB6W5D4F</argument>
+      <argument>KiVzfMq7U45UCUabcbNG4H</argument>
       <argument>C:\wamp64\www\CupCakes\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -681,7 +681,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>JtiSTn7sZnrg-BgB6W5D4F</argument>
+      <argument>KiVzfMq7U45UCUabcbNG4H</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -2492,12 +2492,12 @@
     </service>
     <service id="security.authentication.listener.anonymous.main" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
-      <argument>5a74f9b28586a3.70562063</argument>
+      <argument>5a75c4992430c1.09900676</argument>
       <argument type="service" id="monolog.logger.security" on-invalid="null"/>
       <argument type="service" id="security.authentication.manager"/>
     </service>
     <service id="security.authentication.provider.anonymous.main" class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-      <argument>5a74f9b28586a3.70562063</argument>
+      <argument>5a75c4992430c1.09900676</argument>
     </service>
     <service id="security.exception_listener.main" class="Symfony\Component\Security\Http\Firewall\ExceptionListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -2695,6 +2695,10 @@
         <argument>CupCakes</argument>
       </call>
       <call method="addPath">
+        <argument>C:\wamp64\www\CupCakes\src\CupCakesBundle/Resources/views</argument>
+        <argument>FOSUser</argument>
+      </call>
+      <call method="addPath">
         <argument>C:\wamp64\www\CupCakes\vendor\friendsofsymfony\user-bundle/Resources/views</argument>
         <argument>FOSUser</argument>
       </call>
@@ -2842,6 +2846,10 @@
       <call method="addPath">
         <argument>C:\wamp64\www\CupCakes\src\CupCakesBundle/Resources/views</argument>
         <argument>CupCakes</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\wamp64\www\CupCakes\src\CupCakesBundle/Resources/views</argument>
+        <argument>FOSUser</argument>
       </call>
       <call method="addPath">
         <argument>C:\wamp64\www\CupCakes\vendor\friendsofsymfony\user-bundle/Resources/views</argument>
@@ -4026,7 +4034,7 @@
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>fAQunpRUjb</argument>
       <argument>0</argument>
-      <argument>JtiSTn7sZnrg-BgB6W5D4F</argument>
+      <argument>KiVzfMq7U45UCUabcbNG4H</argument>
       <argument>C:\wamp64\www\CupCakes\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4034,7 +4042,7 @@
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>IlODnK2IS2</argument>
       <argument>0</argument>
-      <argument>JtiSTn7sZnrg-BgB6W5D4F</argument>
+      <argument>KiVzfMq7U45UCUabcbNG4H</argument>
       <argument>C:\wamp64\www\CupCakes\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4042,7 +4050,7 @@
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>BtlqMx1Ojq</argument>
       <argument>0</argument>
-      <argument>JtiSTn7sZnrg-BgB6W5D4F</argument>
+      <argument>KiVzfMq7U45UCUabcbNG4H</argument>
       <argument>C:\wamp64\www\CupCakes\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4050,7 +4058,7 @@
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>o8J0E5LJfW</argument>
       <argument>0</argument>
-      <argument>JtiSTn7sZnrg-BgB6W5D4F</argument>
+      <argument>KiVzfMq7U45UCUabcbNG4H</argument>
       <argument>C:\wamp64\www\CupCakes\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>

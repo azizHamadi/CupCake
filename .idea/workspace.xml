@@ -2,106 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f226612-d2c3-49e8-a9b9-2ff8ebc5c2c3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CupCakesBundle/Entity/User.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/CupCakes.iml" afterPath="$PROJECT_DIR$/.idea/CupCakes.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/back-office.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CupCakesBundle/Resources/views/Security/login.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CupCakesBundle/Resources/views/Security/login_content.html.twig" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/var/bootstrap.php.cache" afterPath="$PROJECT_DIR$/var/bootstrap.php.cache" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/annotations.map" afterPath="$PROJECT_DIR$/var/cache/dev/annotations.map" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/CupCakesBundle/CupCakesBundle.php" afterPath="$PROJECT_DIR$/src/CupCakesBundle/CupCakesBundle.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/classes.map" afterPath="$PROJECT_DIR$/var/cache/dev/classes.map" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/classes.php" afterPath="$PROJECT_DIR$/var/cache/dev/classes.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/classes.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/classes.php.meta" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/04/66/1e6604" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/13/d7/37d713" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/52/e5/d7e552" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/54/16/841654" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/67/ea/86ea67" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/af/db/81dbaf" afterPath="" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/00/00e8e972563ae91f87a9354982af6d46497f242d336c328cd86cc1105eaa4f54.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/00/00e8e972563ae91f87a9354982af6d46497f242d336c328cd86cc1105eaa4f54.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/0b/0bec8fc64bb6d05d93e8d09a649e9b0b6b9265b6f40d13540bb080805b2f4180.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/0b/0bec8fc64bb6d05d93e8d09a649e9b0b6b9265b6f40d13540bb080805b2f4180.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/11/11e2f55b8f2e1d1baeffa0ae9b540f0e51dbcebc784e1cbc3766ca7280d46439.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/11/11e2f55b8f2e1d1baeffa0ae9b540f0e51dbcebc784e1cbc3766ca7280d46439.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/11/11fb786467476cc34dad70c4fd763442152c54f88bd79bedf2a2a77825de9935.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/11/11fb786467476cc34dad70c4fd763442152c54f88bd79bedf2a2a77825de9935.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/16/168a964f8ab1d8a00687f6cfcd5d5d7845e96d5fba9fb233eb41aa2163984ef2.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/16/168a964f8ab1d8a00687f6cfcd5d5d7845e96d5fba9fb233eb41aa2163984ef2.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/16/16d74c3a2d6b362a4e80881c02d7ed1cc47833f40db7733604df5bb6b576be65.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/19/19d58eca7a8043e5e0dfb07870f2a4bbfac73fb97a06099297d35928e1c9d299.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/19/19d58eca7a8043e5e0dfb07870f2a4bbfac73fb97a06099297d35928e1c9d299.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1b/1bd0868450600fa5d9f8b7bb34585b7422a97b60cfdf124b6c357df15d8c4b0e.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/1b/1bd0868450600fa5d9f8b7bb34585b7422a97b60cfdf124b6c357df15d8c4b0e.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/29/29f3b2c75c9afd66daed16e431e1f3cb91d82cdb90e0dc3b0f17262282f1491f.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/29/29f3b2c75c9afd66daed16e431e1f3cb91d82cdb90e0dc3b0f17262282f1491f.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/2e/2ed7419b43e5b360c267b881b66fff19139eb151fb649f920e9a6f775d9f0cd2.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/2e/2ed7419b43e5b360c267b881b66fff19139eb151fb649f920e9a6f775d9f0cd2.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/3b/3b3637522f1dea63a83b6bb93eed98414828146c0071ec5e3572c5cefca70a76.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/3b/3b3637522f1dea63a83b6bb93eed98414828146c0071ec5e3572c5cefca70a76.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/3f/3f93c64e32c602ac84e3950a72d2fa3ae0deb0969f16da1650b003d9411557b1.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/3f/3f93c64e32c602ac84e3950a72d2fa3ae0deb0969f16da1650b003d9411557b1.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/40/40acb3177889ba8f89208bf0990e3251b1952f711fa20e49c0a9b8b4c7146877.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/40/40acb3177889ba8f89208bf0990e3251b1952f711fa20e49c0a9b8b4c7146877.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/41/4130af047afe51ba37980eb82cbf8d8656cac5ec4d615e492bf720dbca3d509d.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/41/4130af047afe51ba37980eb82cbf8d8656cac5ec4d615e492bf720dbca3d509d.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/43/43d3eaac94bcc2e519f11a2c06aede10be0ee6e5ecd718ad5760fce84af00534.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/43/43d3eaac94bcc2e519f11a2c06aede10be0ee6e5ecd718ad5760fce84af00534.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/44/44639ca35a4c5d6af3d0b562ec4548b64cdcbbba12ea2a37c848550bea618b32.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/49/49125a19a59f0787ebed2369aadc1e04856501608ff7349c67da41a06033be07.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/49/49125a19a59f0787ebed2369aadc1e04856501608ff7349c67da41a06033be07.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4c/4c516ac79c8aaa687682e17a4a49f150877640805ed64adb459c4198033748dc.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/4c/4c516ac79c8aaa687682e17a4a49f150877640805ed64adb459c4198033748dc.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4c/4caa69a1478b63be3c435c7c744625450ee67a973c2adfd4bbc6c2e5cb63b0cd.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/4c/4caa69a1478b63be3c435c7c744625450ee67a973c2adfd4bbc6c2e5cb63b0cd.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4c/4cd27bb039b3fac8db5ada9e6102b57c947fa04cd61e0f25ad14ff8736ca43ad.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/4c/4cd27bb039b3fac8db5ada9e6102b57c947fa04cd61e0f25ad14ff8736ca43ad.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5a/5af0c2a5a9044ee35e8f8ae519bbb9f900f3156ace1e454b4a87b737a2c8b1f1.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5a/5af0c2a5a9044ee35e8f8ae519bbb9f900f3156ace1e454b4a87b737a2c8b1f1.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5f/5f52e6dc5c4d250a4f8233dee133387cc132a3e5627bcc9e208c3f8a92357c06.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5f/5f52e6dc5c4d250a4f8233dee133387cc132a3e5627bcc9e208c3f8a92357c06.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/63/63d7d34eb73ac522b628b2ae67ea2d22e95e523e10ef21b6f00bed9afda3c1d1.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/63/63d7d34eb73ac522b628b2ae67ea2d22e95e523e10ef21b6f00bed9afda3c1d1.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/65/65ef19bf89a730e4081ec1ba7cb8e69c5c93042d20548014f727e9d36fede4c7.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/65/65ef19bf89a730e4081ec1ba7cb8e69c5c93042d20548014f727e9d36fede4c7.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6e/6ec7f2685eb9f834c576b752c81bab725681f9bb2158a21c963dd97c62a7bb93.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6e/6ec7f2685eb9f834c576b752c81bab725681f9bb2158a21c963dd97c62a7bb93.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6e/6ee524f772651c4b01126bb0ed089620e8b6aafe9b95a952d3fe2015e140f3bf.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/6e/6ee524f772651c4b01126bb0ed089620e8b6aafe9b95a952d3fe2015e140f3bf.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/71/714062704f2dbc5436f95aa9bbeb68df45c72a71222e570cc16ecb04efe614da.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/71/714062704f2dbc5436f95aa9bbeb68df45c72a71222e570cc16ecb04efe614da.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/74/7422da0d8a005b25326e2fcad276da4a0124e095752c1a11b7173997df99adbd.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/74/7422da0d8a005b25326e2fcad276da4a0124e095752c1a11b7173997df99adbd.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/75/75f3d8ee8588336f6d596a6eb5a4c7f9f38eb4958e639d9e5968caea367c6c29.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/75/75f3d8ee8588336f6d596a6eb5a4c7f9f38eb4958e639d9e5968caea367c6c29.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/79/79555d05ff0005ec13d214ae701f9de8fd764e5bde447e49bbc799a359075bef.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/79/79555d05ff0005ec13d214ae701f9de8fd764e5bde447e49bbc799a359075bef.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/7b/7b77e58111b5345f14a776775dc2da324cb5e87549d33d79d7b908bb08f72f00.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/7b/7b77e58111b5345f14a776775dc2da324cb5e87549d33d79d7b908bb08f72f00.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/87/87063e64ef5288914b9d4e3f89eda7d493bc33d40407faff57f01ce40b09afc3.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/87/87063e64ef5288914b9d4e3f89eda7d493bc33d40407faff57f01ce40b09afc3.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/88/8816bb67d6e7a6ffe5dd008eed891941788234a07a9e66c6ede5284ba9701123.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/88/8816bb67d6e7a6ffe5dd008eed891941788234a07a9e66c6ede5284ba9701123.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/8d/8d0934d493da05fe8cd783c2f75d865f62b3302cb94651b48c6b31ef2d129d01.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/8d/8d0934d493da05fe8cd783c2f75d865f62b3302cb94651b48c6b31ef2d129d01.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/91/91c6ece9a05eca060d69687bbcc02f9853c0066240afdd7796e1c97c23b642ea.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/91/91c6ece9a05eca060d69687bbcc02f9853c0066240afdd7796e1c97c23b642ea.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/92/92c7aaa53e703e5cef8270cdbbd2711f0e57d4ebdd4167e10f8269a718eaa792.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/92/92c7aaa53e703e5cef8270cdbbd2711f0e57d4ebdd4167e10f8269a718eaa792.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/95/95307ef2d99a6734c830bad8e811d74423bdf0afd4dc2fe5d45f20d87b990fdd.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/95/95307ef2d99a6734c830bad8e811d74423bdf0afd4dc2fe5d45f20d87b990fdd.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/95/954af14df33a869755ae3a4a47332d0d044c0f0e5cb5569bcf05cbfdbc880b29.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/95/954af14df33a869755ae3a4a47332d0d044c0f0e5cb5569bcf05cbfdbc880b29.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/9b/9b462e656206696a742e2314adff8eec95d64288942b81a69b24d21ad58151fd.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/9b/9b462e656206696a742e2314adff8eec95d64288942b81a69b24d21ad58151fd.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ab/ab4ac5b9f7708c4ba4464c1e18706d2123e7068a1b2ad96f546071af4b71e417.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ab/ab4ac5b9f7708c4ba4464c1e18706d2123e7068a1b2ad96f546071af4b71e417.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b3/b3d865398474c116ec6748be35ad2939f71bb8ec4cd8468330069e9b53935290.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b3/b3d865398474c116ec6748be35ad2939f71bb8ec4cd8468330069e9b53935290.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b7/b73f47c8a66ec2ebee5bc62b4f49f872128cf697ee2513807aacdc96e9457f62.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b7/b73f47c8a66ec2ebee5bc62b4f49f872128cf697ee2513807aacdc96e9457f62.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/bf/bf3f8b2bab245d50099b7ba5dff0ef3087425107699d9db2013305e0bd875f0e.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/bf/bf3f8b2bab245d50099b7ba5dff0ef3087425107699d9db2013305e0bd875f0e.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c5/c50385159da25517a4e155cf6cbabf5717d7c0e31f164b77989501901d84e4c8.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c5/c50385159da25517a4e155cf6cbabf5717d7c0e31f164b77989501901d84e4c8.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c5/c561f74ccfa81aaaf9923d8efba996e6c61347e6458372fecd86095eecda2513.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c5/c561f74ccfa81aaaf9923d8efba996e6c61347e6458372fecd86095eecda2513.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c6/c63be525a48e514133b2f134d7c0f927526545ebc44419eebf0872e0077a3061.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c6/c63be525a48e514133b2f134d7c0f927526545ebc44419eebf0872e0077a3061.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/cb/cb6835878ead30fc1c171e96649ec22067e96f5138e47471736edcaa574f895b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/cb/cb6835878ead30fc1c171e96649ec22067e96f5138e47471736edcaa574f895b.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/cf/cf47885c27444eba311c145ac8e3f9cea1fd0ce8a0754c3ee2e42116e9845ead.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/cf/cf47885c27444eba311c145ac8e3f9cea1fd0ce8a0754c3ee2e42116e9845ead.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/d1/d188886b93515f5d20f6f3ead840ffe90a3983ce8a53e44651e5226873011121.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/d1/d1fd50a53a94c7cc911646f39eec442c1ff81c4eff3bb1cc1607430a2f27107c.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d1/d1fd50a53a94c7cc911646f39eec442c1ff81c4eff3bb1cc1607430a2f27107c.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/de/de68fa05210979faf02b3d4e261866042dfb94d50535c901f216b403100bdf6b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/de/de68fa05210979faf02b3d4e261866042dfb94d50535c901f216b403100bdf6b.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/de/de9c9f919fa45e27e1f02cfb0f7243442e6cbb1e5d3c5afb4b599b2581f06f29.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/de/de9c9f919fa45e27e1f02cfb0f7243442e6cbb1e5d3c5afb4b599b2581f06f29.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e2/e23c5e5d4366114044f72ff6b280413913c6690bd9c78755c17ebba30cd089cf.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/e2/e23c5e5d4366114044f72ff6b280413913c6690bd9c78755c17ebba30cd089cf.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e3/e377d87cc29f4366e3647ac5f387ef7a14704c63ad399be1f76c0c25dcc408c4.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/e3/e377d87cc29f4366e3647ac5f387ef7a14704c63ad399be1f76c0c25dcc408c4.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fa/fa5f2ee50727dd25a0efdde77f3d19aa932fb9c12d74aa9226542853d533caba.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fa/fa5f2ee50727dd25a0efdde77f3d19aa932fb9c12d74aa9226542853d533caba.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fc/fcbe1098d7f93596bee073cea1c0305ae93d84c7222de3cafe80c675e3a4f46c.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fc/fcbe1098d7f93596bee073cea1c0305ae93d84c7222de3cafe80c675e3a4f46c.php" />
       <change beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change beforePath="$PROJECT_DIR$/var/logs/prod.log" afterPath="$PROJECT_DIR$/var/logs/prod.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,14 +31,24 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="42">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CupCakesBundle.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/CupCakesBundle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -135,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Resources/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,18 +81,8 @@
       <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="546">
               <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -175,21 +98,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#86#0#PHP" expanded="true" />
-                <element signature="e#121#163#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CupCakesBundle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/CupCakesBundle.php">
+      <file leaf-file-name="app_dev.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app_dev.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -198,11 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Controller/DefaultController.php">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,21 +139,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/CupCakesBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/CupCakesBundle/Resources/views/Patisseuri/layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/CupCakesBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/back-office.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/CupCakesBundle/CupCakesBundle.php" />
       </list>
     </option>
   </component>
@@ -287,8 +208,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
+    <option name="x" value="818" />
+    <option name="width" value="1110" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -309,7 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,6 +252,27 @@
             <path>
               <item name="CupCakes" type="b2602c69:ProjectViewProjectNode" />
               <item name="CupCakes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CupCakes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CupCakes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CupCakes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CupCakes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CupCakes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CupCakes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -345,6 +287,14 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="CupCakesBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CupCakes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CupCakes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CupCakesBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="CupCakes" type="b2602c69:ProjectViewProjectNode" />
@@ -363,11 +313,25 @@
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Patisseuri" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="CupCakes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CupCakes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CupCakesBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Security" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CupCakes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CupCakes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,7 +343,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\CupCakes\src\CupCakesBundle\Resources\views" />
+      <recent name="C:\wamp64\www\CupCakes\app\Resources\views\default" />
       <recent name="C:\wamp64\www\CupCakes\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\CupCakes\app\Resources\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,23 +379,23 @@
       <workItem from="1517611048459" duration="217000" />
       <workItem from="1517611680865" duration="1027000" />
       <workItem from="1517612733734" duration="335000" />
-      <workItem from="1517614728173" duration="801000" />
+      <workItem from="1517614728173" duration="1850000" />
+      <workItem from="1517666056233" duration="922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2746000" />
+    <option name="totallyTimeSpent" value="4717000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="818" y="0" width="1110" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19825919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10423826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -438,8 +406,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10423826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -462,34 +431,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/demo.css">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/back-office.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
+            <element signature="e#197#244#0#Twig" expanded="false" />
+            <element signature="e#3076#3123#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/CupCakesBundle.php">
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="609">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="1638">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Resources/views/Patisseuri/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="378">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="false" />
+            <element signature="e#121#163#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -506,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,19 +537,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Resources/views/Patisseuri/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="672">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/CupCakesBundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -542,7 +570,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/CupCakesBundle.php">
+    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Resources/views/Patisseuri/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -555,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,30 +611,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="false" />
+            <element signature="e#121#163#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/base.html.twig" />
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/back-office.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
+            <element signature="e#197#244#0#Twig" expanded="false" />
+            <element signature="e#3076#3123#0#Twig" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Resources/views/Security/login_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="546">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="189">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -607,29 +726,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/Entity/User.php">
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <element signature="e#121#163#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="42">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+    <entry file="file://$PROJECT_DIR$/src/CupCakesBundle/CupCakesBundle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
