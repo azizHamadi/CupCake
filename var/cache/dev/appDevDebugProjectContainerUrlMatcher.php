@@ -104,12 +104,23 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         // cup_cakes_homepage
-        if ('' === $trimmedPathinfo) {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($rawPathinfo.'/', 'cup_cakes_homepage');
-            }
-
+        if ('/Patisserie' === $pathinfo) {
             return array (  '_controller' => 'CupCakesBundle\\Controller\\DefaultController::indexAction',  '_route' => 'cup_cakes_homepage',);
+        }
+
+        // cup_cakes_Dashbord
+        if ('/Admin' === $pathinfo) {
+            return array (  '_controller' => 'CupCakesBundle\\Controller\\DefaultController::AdminAction',  '_route' => 'cup_cakes_Dashbord',);
+        }
+
+        // cup_cakes_Eshop
+        if ('/Client' === $pathinfo) {
+            return array (  '_controller' => 'CupCakesBundle\\Controller\\DefaultController::clientAction',  '_route' => 'cup_cakes_Eshop',);
+        }
+
+        // cup_cakes_Formateur
+        if ('/Formateur' === $pathinfo) {
+            return array (  '_controller' => 'CupCakesBundle\\Controller\\DefaultController::FormateurAction',  '_route' => 'cup_cakes_Formateur',);
         }
 
         // homepage
