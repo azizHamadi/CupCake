@@ -1,0 +1,14 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% extends "::base.html.twig" %}
+{% block titreh3 %}Crer votre compte{% endblock %}
+{% block description %}Enter your information to register{% endblock %}
+{% block fos_user_content %}
+<div class="login">
+<form role="form" action="{{ path('fos_user_registration_register') }}" method="post" class="login-form">
+    <div class="form-group">
+        {{ form_widget(form) }}
+        <button type="submit" class="btn"  id="_submit" name="_submit" value="{{ 'registration.submit'|trans }}" >Register !</button>
+    </div>
+</form>
+</div>
+{% endblock fos_user_content %}
