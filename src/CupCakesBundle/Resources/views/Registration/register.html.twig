@@ -4,11 +4,37 @@
 {% block description %}Enter your information to register{% endblock %}
 {% block fos_user_content %}
 <div class="login">
-<form role="form" action="{{ path('fos_user_registration_register') }}" method="post" class="login-form">
-    <div class="form-group">
-        {{ form_widget(form) }}
-        <button type="submit" class="btn"  id="_submit" name="_submit" value="{{ 'registration.submit'|trans }}" >Register !</button>
-    </div>
-</form>
+    <form name="fos_user_registration_form" method="post" action="/CupCakes/web/app_dev.php/register/" class="login-form">
+        <div class="form-group">
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="fos_user_registration_form_email" class="sr-only">form.email</label>
+                    <input type="email" id="fos_user_registration_form_email" name="fos_user_registration_form[email]" required="required" class="form-username form-control" placeholder="Email...">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="fos_user_registration_form_username" class="sr-only">form.username</label>
+                    <input type="text" id="fos_user_registration_form_username" name="fos_user_registration_form[username]" class="form-username form-control" required="required" maxlength="180" pattern=".{2,}" placeholder="Nom d'utilisateur...">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="fos_user_registration_form_plainPassword_first" class="sr-only">form.password</label>
+                    <input type="password" id="fos_user_registration_form_plainPassword_first" name="fos_user_registration_form[plainPassword][first]" class="form-username form-control" required="required" autocomplete="new-password" placeholder="Mot de passe...">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="fos_user_registration_form_plainPassword_second" class="sr-only">form.password_confirmation</label>
+                    <input type="password" id="fos_user_registration_form_plainPassword_second" name="fos_user_registration_form[plainPassword][second]"  class="form-username form-control"required="required" autocomplete="new-password" placeholder="Confirmation de mot de passe...">
+                </div>
+            </div>
+                <input type="hidden" id="fos_user_registration_form__token" name="fos_user_registration_form[_token]" value="XBTRnMIRpIeT71KP_KZHyI13jPIfPmyN0TZFqmVURjw">
+            <div>
+                <input type="submit" class="btn" value="registration.submit">
+            </div>
+        </div>
+    </form>
 </div>
 {% endblock fos_user_content %}
