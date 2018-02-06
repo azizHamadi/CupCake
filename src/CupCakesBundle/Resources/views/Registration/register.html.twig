@@ -4,7 +4,7 @@
 {% block description %}Enter your information to register{% endblock %}
 {% block fos_user_content %}
 <div class="login">
-    <form name="fos_user_registration_form" method="post" action="/CupCakes/web/app_dev.php/register/" class="login-form">
+    <form name="fos_user_registration_form" method="post" action="{{ path('fos_user_registration_register') }}" class="login-form">
         <div class="form-group">
             <div class="form-group">
             <label for="fos_user_registration_form_email" class="sr-only">form.email</label>
