@@ -76,3 +76,6 @@ fos_user:
     from_email:
           address: aziz.hamadi@esprit.tn
           sender_name:  Aziz
+    registration:
+           form:
+               type: CupCakesBundle\Form\RegistrationFormType
