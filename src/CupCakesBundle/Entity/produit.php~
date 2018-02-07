@@ -223,4 +223,28 @@ class Produit
     {
         return $this->idCat;
     }
+
+    /**
+     * Set typeProd
+     *
+     * @param string $typeProd
+     *
+     * @return Produit
+     */
+    public function setTypeProd($typeProd)
+    {
+        $this->typeProd = $typeProd;
+    
+        return $this;
+    }
+
+    /**
+     * Get typeProd
+     *
+     * @return string
+     */
+    public function getTypeProd()
+    {
+        return $this->typeProd;
+    }
 }

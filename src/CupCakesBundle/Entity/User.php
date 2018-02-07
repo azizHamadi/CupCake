@@ -24,17 +24,26 @@ class User extends BaseUser
     protected $id;
 
     /**
-     * @ORM\Column(name="phoneNumber", type="string")
+     * @ORM\Column(name="phoneNumber", type="string", nullable=true)
      */
 
     private $phoneNumber;
     /**
      * @var string
-     * @ORM\Column(name="Addresse", type="string")
+     * @ORM\Column(name="Addresse", type="string", nullable=true)
      */
 
     private $addresse;
-
+    /**
+     * @var string
+     * @ORM\Column(name="nom", type="string", nullable=true)
+     */
+    private $nom;
+    /**
+     * @var string
+     * @ORM\Column(name="prenom", type="string", nullable=true)
+     */
+    private $prenom;
     /**
      * @return mixed
      */
@@ -68,4 +77,52 @@ class User extends BaseUser
     }
 
 
+
+    /**
+     * Set nom
+     *
+     * @param string $nom
+     *
+     * @return User
+     */
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+    
+        return $this;
+    }
+
+    /**
+     * Get nom
+     *
+     * @return string
+     */
+    public function getNom()
+    {
+        return $this->nom;
+    }
+
+    /**
+     * Set prenom
+     *
+     * @param string $prenom
+     *
+     * @return User
+     */
+    public function setPrenom($prenom)
+    {
+        $this->prenom = $prenom;
+    
+        return $this;
+    }
+
+    /**
+     * Get prenom
+     *
+     * @return string
+     */
+    public function getPrenom()
+    {
+        return $this->prenom;
+    }
 }
